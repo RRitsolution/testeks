@@ -8,7 +8,7 @@ pipeline {
         steps{
 
 
-          git branch: 'main', url: https://github.com/RRitsolution/testeks.git
+          git branch: 'main', url: 'https://github.com/RRitsolution/testeks.git'
 
             sh 'echo "Code checkout done"'
         }
