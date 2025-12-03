@@ -4,6 +4,8 @@
 ARCH=amd64
 PLATFORM=$(uname -s)_$ARCH
 
+sudo apt install tar -y
+
 sudo curl -sLO "https://github.com/eksctl-io/eksctl/releases/latest/download/eksctl_$PLATFORM.tar.gz"
 
 # (Optional) Verify checksum
