@@ -11,6 +11,6 @@ sudo curl -sLO "https://github.com/eksctl-io/eksctl/releases/latest/download/eks
 # (Optional) Verify checksum
 sudo curl -sL "https://github.com/eksctl-io/eksctl/releases/latest/download/eksctl_checksums.txt" | grep $PLATFORM | sha256sum --check
 
-sudo tar -xzf eksctl_$PLATFORM.tar.gz -C /tmp && rm eksctl_$PLATFORM.tar.gz
+sudo tar -xzf eksctl_$PLATFORM.tar.gz -C /tmp && sudo rm eksctl_$PLATFORM.tar.gz
 
-sudo install -m 0755 /tmp/eksctl /usr/local/bin && rm /tmp/eksctl
+sudo install -m 0755 /tmp/eksctl /usr/local/bin && sudo rm /tmp/eksctl
