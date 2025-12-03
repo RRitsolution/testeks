@@ -1,4 +1,6 @@
 # for ARM systems, set ARCH to: `arm64`, `armv6` or `armv7`
+
+#!/bin/bash
 ARCH=amd64
 PLATFORM=$(uname -s)_$ARCH
 
