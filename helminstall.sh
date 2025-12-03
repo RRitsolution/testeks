@@ -6,4 +6,4 @@ eksctl create iamserviceaccount --cluster production-eks --namespace kube-system
 sudo curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
 sudo chmod 777 get_helm.sh
 bash get_helm.sh
-helm -version
+helm version
